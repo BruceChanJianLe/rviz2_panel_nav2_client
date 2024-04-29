@@ -1,0 +1,20 @@
+<library path="rviz2_panel_nav2_client">
+
+  <class name="custom_rviz2_plugins/Rviz2PanelNav2Client"
+         type="custom_rviz2_plugins::Rviz2PanelNav2Client"
+         base_class_type="rviz_common::Panel">
+    <description>
+      An rviz2 panel for exploring nav2 planners and controllers.
+    </description>
+  </class>
+
+  <class name="custom_rviz2_plugins/GoalTool"
+         type="custom_rviz2_plugins::GoalTool"
+         base_class_type="rviz_common::Tool">
+    <description>
+      A tool used to specify the rviz2 panel nav2 client goal pose.
+    </description>
+  </class>
+
+
+</library>
